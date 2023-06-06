@@ -160,7 +160,7 @@ class PolrBirthdayCard extends s {
         width: 40px;
         height: 40px;
         text-align: center;
-        padding: 10px;
+        padding: 10px 0;
       }
 
       .today {
