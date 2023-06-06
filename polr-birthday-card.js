@@ -146,7 +146,7 @@ class PolrBirthdayCard extends s {
         display: flex;
         gap: 10px;
         align-items: center;
-        padding: 10px;
+        padding: 10px 0;
         margin-bottom: 10px;
         border-radius: 10px;
       }
@@ -160,7 +160,7 @@ class PolrBirthdayCard extends s {
         width: 40px;
         height: 40px;
         text-align: center;
-        padding: 10px 0;
+        padding: 10px;
       }
 
       .today {
@@ -168,12 +168,14 @@ class PolrBirthdayCard extends s {
       }
 
       .month {
-        font-size: 0.8em;
+        font-size: 0.75em;
         text-transform: uppercase;
+        font-weight: bold;
       }
       
       .day {
-        font-size: 0.8em;
+        font-size: 1.25em;
+        font-weight: bold;
       }
 
       .name {
