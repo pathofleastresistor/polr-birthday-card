@@ -118,7 +118,7 @@ class PolrBirthdayCard extends s {
     }
     render() {
         return x `
-      <ha-card header="Upcoming Birthdays">
+      <ha-card header="${this._config["title"]}">
         <div class="card-content">
           ${o(this._events, (i) => x `
             <div class="card ${i.today() ? 'today' : ''}">

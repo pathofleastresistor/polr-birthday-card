@@ -68,7 +68,7 @@ class PolrBirthdayCard extends LitElement {
 
   render() {
     return html`
-      <ha-card header="Upcoming Birthdays">
+      <ha-card header="${this._config["title"]}">
         <div class="card-content">
           ${map(this._events, (i) => html`
             <div class="card ${i.today()?'today':''}">
